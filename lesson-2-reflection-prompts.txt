@@ -24,6 +24,12 @@ spans files.
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Branches allow you to have more than one feature set. If you want your end
+product two have two or more variants, then branching is one way to accomplish
+that. Branching can also be used in trying out an experimental feature. If
+you use a branch to add an experimental feature, you can always go back to a
+working version of the code, which is when the branch split off from the master.
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
