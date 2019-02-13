@@ -38,5 +38,11 @@ helps you avoid creating unreachable commits.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Merging two branches together essentially compares both tips of the branches
+to the commit at which they split off. Changes that have been added in one
+and not deleted in the other are added to the file. In this way you get the
+additions of each in the merged commit. It then makes sense for it to be
+represented in the diagram as two branches coming together for one commit.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
