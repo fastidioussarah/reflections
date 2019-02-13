@@ -16,6 +16,7 @@ together in one commit.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+
 Because you can add multiple files to the staging area and put them all in one
 commit, your commits can all be of one logical change, even if this logical change
 spans files.
